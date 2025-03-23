@@ -8,25 +8,25 @@ int main(){
     int navioHorizontal[3];
     int navioVertical[3];
 
-    // Estruturas repetitivas para preencher o conteúdo do tabuleiro com o valor 0
+    // Estrutura de repetição para preencher o conteúdo do tabuleiro com o valor 0
     for (int i = 0; i < 10; i++){
         for (int j = 0; j < 10; j++){
             tabuleiro[i][j] = 0;
         }
     }
 
-    // Estrutura repetitiva para receber a posição dos navios horizontal e vertical
+    // Estrutura de repetição para receber a posição dos navios horizontal e vertical
     for (int i = 0; i < 3; i++){
         navioHorizontal[i] = 3;
         navioVertical[i] = 3;
     }
 
-    // Estrutura repetitiva para receber a quantidade de linhas representadas de 1 a 10
+    // Estrutura de repetição para receber a quantidade de linhas representadas de 1 a 10
     for (int i = 0; i < 10; i++){
         linha[i] = i + 1;
     }
 
-    // Estrutura repetitiva para receber a quantidade de colunas representadas de A a J
+    // Estrutura de repetição para receber a quantidade de colunas representadas de A a J
     for (int i = 0; i < 10; i++){
         coluna[i] = 'A' + i;
     }
